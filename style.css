@@ -1,0 +1,33 @@
+img{
+  max-width:100%;
+  border-radius:10%;
+}
+
+.carousel article{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .carousel article img{
+    max-width:80%;
+    }
+    .carousel article div{
+    flex:1;
+    padding:2em .5em;
+
+    cursor:pointer;
+    text-align: center;
+    }
+
+
+.cookies{
+    border:5px solid rgb(56, 56, 56);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: rgb(56, 56, 56);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5px;
+  }
