@@ -3,6 +3,9 @@ img{
   border-radius:10%;
 }
 
+body {
+  background-color: beige;
+}
 .carousel article{
     display:flex;
     align-items: center;
